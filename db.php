@@ -4,10 +4,10 @@
 function coneet()
 {
 
-	$server="81.25.112.63";
-	$user="SN015US00003";
-	$pass="pA3{gRU5)r,";
-	$bd="petropedia";
+	$server="local-host";
+	$user="user";
+	$pass="password";
+	$bd="name_db";
 
 	$conectar= mysqli_connect("$server","$user","$pass","$bd");
 
